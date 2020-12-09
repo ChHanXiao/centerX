@@ -1,3 +1,16 @@
+CenterNet训练太慢了（算力有限T T）， 参考[TTFNet](https://github.com/ZJULearning/ttfnet)修改加快训练。
+
+[给海哥点赞](https://www.zybuluo.com/huanghaian/note/1702250)
+
+|      Backbone       |   AP   |  AP50  |  AP75  |  APs   |  APm   | APl    | epoch |
+| :-----------------: | :----: | :----: | :----: | :----: | :----: | ------ | ----- |
+| TTFNet（ResNet-50） | 32.493 | 49.282 | 34.635 | 12.988 | 37.499 | 47.889 | 25    |
+|                     |        |        |        |        |        |        |       |
+
+
+
+#------------------------------------------分割线----------------------------------
+
 # CenterX
 
 This repo is implemented based on [detectron2](https://github.com/facebookresearch/detectron2) and  [CenterNet](https://github.com/xingyizhou/CenterNet)
@@ -9,7 +22,7 @@ This repo is implemented based on [detectron2](https://github.com/facebookresear
 - Support other LR_SCHEDULER
 - Support Optimizer [RangerLars](https://github.com/pabloppp/pytorch-tools.git), not convergence in COCO
 - We provide some examples and scripts to convert centerX to Caffe, ONNX and TensorRT format in [projects/speedup](https://github.com/CPFLAME/centerX/tree/master/projects/speedup)
- 
+
 ## What\'s comming 
 - [️✔] Support simple inference 
 - [✔] Support to caffe, onnx, tensorRT
@@ -108,7 +121,7 @@ centerX_KD means ResNet-50(33.2) as teacher, ResNet-18(27.9) as student, Knowled
 | resdcn18_KD_woGT         | 33.0 | 58.3  | 32.7  |  80   | resdcn50| resdcn18|
 | resdcn18_KD_woGT_scratch | 32.8 | 58.1  | 32.6  |  140  | resdcn50| imagenet|
 | resdcn50                 | 35.1 | 61.2  | 35.3  |  80   |   -     |  -      |
- 
+
 ## KD exp
 
 ### crowd human KD

@@ -9,12 +9,12 @@ from detectron2.evaluation.testing import verify_results
 from detectron2.utils import comm
 
 from configs import add_centernet_config
-from engine import CenterTrainer
+from engine import TTFTrainer
 
 import warnings
 warnings.filterwarnings("ignore")
 
-class Trainer(CenterTrainer):
+class Trainer(TTFTrainer):
     @classmethod
     def build_evaluator(cls, cfg, dataset_name, output_folder=None):
         if output_folder is None:

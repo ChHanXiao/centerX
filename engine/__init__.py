@@ -1,1 +1,1 @@
-from .defaults import CenterTrainer
+from .defaults import TTFTrainer
