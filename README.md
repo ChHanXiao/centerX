@@ -1,15 +1,19 @@
-CenterNet训练太慢了（算力有限T T）， 参考[TTFNet](https://github.com/ZJULearning/ttfnet)修改加快训练。
+# TTFNet
 
-[给海哥点赞](https://www.zybuluo.com/huanghaian/note/1702250)
+CenterNet训练太慢， 参考[TTFNet](https://github.com/ZJULearning/ttfnet)修改加快训练。
+
+[解读看海哥的博客](https://www.zybuluo.com/huanghaian/note/1702250)
 
 |      Backbone       |   AP   |  AP50  |  AP75  |  APs   |  APm   | APl    | epoch |
 | :-----------------: | :----: | :----: | :----: | :----: | :----: | ------ | ----- |
 | TTFNet（ResNet-50） | 32.493 | 49.282 | 34.635 | 12.988 | 37.499 | 47.889 | 25    |
-|                     |        |        |        |        |        |        |       |
+| TTFNet（ResNet-18） | 26.512 | 40.973 | 28.261 | 9.606  | 29.834 | 40.232 | 25    |
+
+[模型文件提取码 25g3](https://pan.baidu.com/s/1qJv8AUxhphH8-NbAwcAjtw)
 
 
 
-#------------------------------------------分割线----------------------------------
+
 
 # CenterX
 

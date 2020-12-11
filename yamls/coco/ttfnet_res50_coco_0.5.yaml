@@ -1,7 +1,7 @@
 MODEL:
   # WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
   # WEIGHTS: 'https://download.pytorch.org/models/resnet50-19c8e357.pth'
-  WEIGHTS: './exp_results/coco/coco_exp_R50_SGD_0.5/model_final.pth'
+  WEIGHTS: './exp_results/coco/coco_exp_R50_SGD_0.5/ttf_r50_e25.pth'
   META_ARCHITECTURE: "TTFNet"
   BN_TYPE: "BN"
   BACKBONE:
